@@ -1,0 +1,222 @@
+2024-08-15T18:55:01+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 688e90fc1cae0efafaf26c5b4ef9f87b
+            [Date] => 15 de agosto de 2024 @ 18:55
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.53303
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => VgRZCOoUrYYaOtXYSpwXTZVvIAEjAC5+vBvzBVq9JSo=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 688e90fc1cae0efafaf26c5b4ef9f87b
+                        )
+
+                )
+
+            [Body] => {\"id\":1304,\"parent_id\":0,\"status\":\"pending\",\"currency\":\"BRL\",\"version\":\"9.1.4\",\"prices_include_tax\":false,\"date_created\":\"2024-08-15T18:54:19\",\"date_modified\":\"2024-08-15T18:54:19\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"10.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_X6e0Vh1lHOz17\",\"billing\":{\"first_name\":\"wermeson\",\"last_name\":\"soares\",\"company\":\"\",\"address_1\":\"Rua Joana\",\"address_2\":\"\",\"city\":\"Acarape\",\"state\":\"CE\",\"postcode\":\"62785-000\",\"country\":\"BR\",\"email\":\"wermeson.blucomet@gmail.com\",\"phone\":\"(85) 98589-2221\",\"number\":\"256\",\"neighborhood\":\"conjunto s\\u00e3o francisco\",\"persontype\":\"F\",\"cpf\":\"06814984393\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"pagbank_boleto\",\"payment_method_title\":\"Boleto\",\"transaction_id\":\"\",\"customer_ip_address\":\"2804:8cd4:c100:5c:6548:4ed:cfcb:1a21\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"a3a5dc1c19e420c295937ca13a258dc8\",\"number\":\"1304\",\"meta_data\":[{\"id\":706,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":705,\"key\":\"_billing_cpf\",\"value\":\"068.149.843-93\"},{\"id\":708,\"key\":\"_billing_neighborhood\",\"value\":\"conjunto s\\u00e3o francisco\"},{\"id\":707,\"key\":\"_billing_number\",\"value\":\"256\"},{\"id\":704,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":713,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":712,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1301\":[{\"tribe-tickets-plus-iac-name\":\"wermeson\",\"tribe-tickets-plus-iac-email\":\"wermeson.digietal@gmail.com\",\"telefone\":\"9999999999999\",\"rg\":\"00000000000000000\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1996-11-09\",\"locais-de-embarque_35585e82bcb1847b95ea99257b390ec3\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"}]}},{\"id\":724,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":715,\"key\":\"_wc_order_attribution_referrer\",\"value\":\"https:\\/\\/hpanel.hostinger.com\\/\"},{\"id\":722,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"7\"},{\"id\":719,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"https:\\/\\/wess.blog\\/\"},{\"id\":721,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"6\"},{\"id\":720,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-14 12:12:47\"},{\"id\":714,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"referral\"},{\"id\":723,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\"},{\"id\":718,\"key\":\"_wc_order_attribution_utm_content\",\"value\":\"\\/\"},{\"id\":717,\"key\":\"_wc_order_attribution_utm_medium\",\"value\":\"referral\"},{\"id\":716,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"hpanel.hostinger.com\"},{\"id\":709,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":59,\"name\":\"Teste\",\"product_id\":1301,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"10.00\",\"subtotal_tax\":\"0.00\",\"total\":\"10.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":572,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"}],\"sku\":\"1301-1-TESTE\",\"price\":10,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/wess.blog\\/finalizar-compra\\/order-pay\\/1304\\/?pay_for_order=true&key=wc_order_X6e0Vh1lHOz17\",\"is_editable\":true,\"needs_payment\":true,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-15T18:54:19\",\"date_modified_gmt\":\"2024-08-15T18:54:19\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1304\"}],\"collection\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Thu, 15 Aug 2024 18:55:01 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCBhOTEzLTI4MDQtMjQ4LWZiZTYtZmIwMC1kNTY2LWI1ZDItNTRiOC03MGYyLm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)
+2024-08-15T18:57:20+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 43ae5b02d5caa1b909ba754746a5f81d
+            [Date] => 15 de agosto de 2024 @ 18:57
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.58786
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => QHP93Q5moYN2fKqWqG0PyLc6/I/y+Ss3Xu/LkggrWEY=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 43ae5b02d5caa1b909ba754746a5f81d
+                        )
+
+                )
+
+            [Body] => {\"id\":1306,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"BRL\",\"version\":\"9.1.4\",\"prices_include_tax\":false,\"date_created\":\"2024-08-15T18:57:15\",\"date_modified\":\"2024-08-15T18:57:16\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_v1tT5AypDyeWw\",\"billing\":{\"first_name\":\"wermeson\",\"last_name\":\"soares\",\"company\":\"\",\"address_1\":\"Rua Joana\",\"address_2\":\"\",\"city\":\"Acarape\",\"state\":\"CE\",\"postcode\":\"62785-000\",\"country\":\"BR\",\"email\":\"wermeson.blucomet@gmail.com\",\"phone\":\"(85) 98589-2221\",\"number\":\"256\",\"neighborhood\":\"conjunto s\\u00e3o francisco\",\"persontype\":\"F\",\"cpf\":\"06814984393\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"\",\"payment_method_title\":\"\",\"transaction_id\":\"\",\"customer_ip_address\":\"2804:8cd4:c100:5c:6548:4ed:cfcb:1a21\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":\"2024-08-15T18:57:15\",\"cart_hash\":\"346f020f7fab8e380077be802151749e\",\"number\":\"1306\",\"meta_data\":[{\"id\":727,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":726,\"key\":\"_billing_cpf\",\"value\":\"068.149.843-93\"},{\"id\":729,\"key\":\"_billing_neighborhood\",\"value\":\"conjunto s\\u00e3o francisco\"},{\"id\":728,\"key\":\"_billing_number\",\"value\":\"256\"},{\"id\":725,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":734,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":746,\"key\":\"_tribe_mail_sent\",\"value\":\"1\"},{\"id\":733,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1301\":[{\"tribe-tickets-plus-iac-name\":\"wermeson\",\"tribe-tickets-plus-iac-email\":\"wermeson.digietal@gmail.com\",\"telefone\":\"9999999999999\",\"rg\":\"00000000000000000\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1996-11-09\",\"locais-de-embarque_35585e82bcb1847b95ea99257b390ec3\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"},{\"tribe-tickets-plus-iac-name\":\"wermeson\",\"tribe-tickets-plus-iac-email\":\"wermeson.digietal@gmail.com\",\"telefone\":\"0000000000\",\"rg\":\"0000000000\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1996-11-09\",\"locais-de-embarque_35585e82bcb1847b95ea99257b390ec3\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"}]}},{\"id\":745,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":736,\"key\":\"_wc_order_attribution_referrer\",\"value\":\"https:\\/\\/hpanel.hostinger.com\\/\"},{\"id\":743,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"7\"},{\"id\":740,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"https:\\/\\/wess.blog\\/\"},{\"id\":742,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"14\"},{\"id\":741,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-14 12:12:47\"},{\"id\":735,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"referral\"},{\"id\":744,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\"},{\"id\":739,\"key\":\"_wc_order_attribution_utm_content\",\"value\":\"\\/\"},{\"id\":738,\"key\":\"_wc_order_attribution_utm_medium\",\"value\":\"referral\"},{\"id\":737,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"hpanel.hostinger.com\"},{\"id\":730,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":60,\"name\":\"Teste\",\"product_id\":1301,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"0.00\",\"subtotal_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":582,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"},{\"id\":583,\"key\":\"_reduced_stock\",\"value\":\"2\",\"display_key\":\"_reduced_stock\",\"display_value\":\"2\"}],\"sku\":\"1301-1-TESTE\",\"price\":0,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/wess.blog\\/finalizar-compra\\/order-pay\\/1306\\/?pay_for_order=true&key=wc_order_v1tT5AypDyeWw\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-15T18:57:15\",\"date_modified_gmt\":\"2024-08-15T18:57:16\",\"date_completed_gmt\":null,\"date_paid_gmt\":\"2024-08-15T18:57:15\",\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1306\"}],\"collection\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Thu, 15 Aug 2024 18:57:20 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCBhOTEzLTI4MDQtMjQ4LWZiZTYtZmIwMC1kNTY2LWI1ZDItNTRiOC03MGYyLm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)
+2024-08-15T20:12:46+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => b830f9e1f4875fbe7897b56600ea69df
+            [Date] => 15 de agosto de 2024 @ 20:12
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.50267
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => /TmYBQNuwwbQaS4+Rp/8yDZTGwIm+57Sr7CONfbtBeM=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => b830f9e1f4875fbe7897b56600ea69df
+                        )
+
+                )
+
+            [Body] => {\"id\":1304,\"parent_id\":0,\"status\":\"cancelled\",\"currency\":\"BRL\",\"version\":\"9.1.4\",\"prices_include_tax\":false,\"date_created\":\"2024-08-15T18:54:19\",\"date_modified\":\"2024-08-15T20:10:56\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"10.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_X6e0Vh1lHOz17\",\"billing\":{\"first_name\":\"wermeson\",\"last_name\":\"soares\",\"company\":\"\",\"address_1\":\"Rua Joana\",\"address_2\":\"\",\"city\":\"Acarape\",\"state\":\"CE\",\"postcode\":\"62785-000\",\"country\":\"BR\",\"email\":\"wermeson.blucomet@gmail.com\",\"phone\":\"(85) 98589-2221\",\"number\":\"256\",\"neighborhood\":\"conjunto s\\u00e3o francisco\",\"persontype\":\"F\",\"cpf\":\"06814984393\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"pagbank_boleto\",\"payment_method_title\":\"Boleto\",\"transaction_id\":\"\",\"customer_ip_address\":\"2804:8cd4:c100:5c:6548:4ed:cfcb:1a21\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"a3a5dc1c19e420c295937ca13a258dc8\",\"number\":\"1304\",\"meta_data\":[{\"id\":706,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":705,\"key\":\"_billing_cpf\",\"value\":\"068.149.843-93\"},{\"id\":708,\"key\":\"_billing_neighborhood\",\"value\":\"conjunto s\\u00e3o francisco\"},{\"id\":707,\"key\":\"_billing_number\",\"value\":\"256\"},{\"id\":704,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":713,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":712,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1301\":[{\"tribe-tickets-plus-iac-name\":\"wermeson\",\"tribe-tickets-plus-iac-email\":\"wermeson.digietal@gmail.com\",\"telefone\":\"9999999999999\",\"rg\":\"00000000000000000\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1996-11-09\",\"locais-de-embarque_35585e82bcb1847b95ea99257b390ec3\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"}]}},{\"id\":724,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":715,\"key\":\"_wc_order_attribution_referrer\",\"value\":\"https:\\/\\/hpanel.hostinger.com\\/\"},{\"id\":722,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"7\"},{\"id\":719,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"https:\\/\\/wess.blog\\/\"},{\"id\":721,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"6\"},{\"id\":720,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-14 12:12:47\"},{\"id\":714,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"referral\"},{\"id\":723,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\"},{\"id\":718,\"key\":\"_wc_order_attribution_utm_content\",\"value\":\"\\/\"},{\"id\":717,\"key\":\"_wc_order_attribution_utm_medium\",\"value\":\"referral\"},{\"id\":716,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"hpanel.hostinger.com\"},{\"id\":709,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":59,\"name\":\"Teste\",\"product_id\":1301,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"10.00\",\"subtotal_tax\":\"0.00\",\"total\":\"10.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":572,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"}],\"sku\":\"1301-1-TESTE\",\"price\":10,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/wess.blog\\/finalizar-compra\\/order-pay\\/1304\\/?pay_for_order=true&key=wc_order_X6e0Vh1lHOz17\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-15T18:54:19\",\"date_modified_gmt\":\"2024-08-15T20:10:56\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1304\"}],\"collection\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Thu, 15 Aug 2024 20:12:46 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCBhOTEzLTI4MDQtMjQ4LWZiZTYtZmIwMC1kNTY2LWI1ZDItNTRiOC03MGYyLm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)

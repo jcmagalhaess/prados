@@ -1,0 +1,82 @@
+2024-08-17T16:35:05+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 4a2c7dcd0a65a9e92882267df3a6b250
+            [Date] => 17 de agosto de 2024 @ 16:35
+            [URL] => https://4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app/financeiro/createByHook
+            [Duration] => 61.79283
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => FuF0W3mAS4P7RNFEpMbw/ofJ7LMsO6Zr/x3K9mQvRzM=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 4a2c7dcd0a65a9e92882267df3a6b250
+                        )
+
+                )
+
+            [Body] => {\"id\":1316,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"BRL\",\"version\":\"9.1.4\",\"prices_include_tax\":false,\"date_created\":\"2024-08-17T16:33:40\",\"date_modified\":\"2024-08-17T16:33:42\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_FGB7cxO8Dtime\",\"billing\":{\"first_name\":\"wermeson\",\"last_name\":\"soares\",\"company\":\"\",\"address_1\":\"Rua Joana\",\"address_2\":\"\",\"city\":\"Acarape\",\"state\":\"CE\",\"postcode\":\"62785-000\",\"country\":\"BR\",\"email\":\"wermeson.blucomet@gmail.com\",\"phone\":\"(85) 98589-2221\",\"number\":\"256\",\"neighborhood\":\"conjunto s\\u00e3o francisco\",\"persontype\":\"F\",\"cpf\":\"06814984393\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"\",\"payment_method_title\":\"\",\"transaction_id\":\"\",\"customer_ip_address\":\"2804:248:fb39:e300:4de2:fcd1:5156:bc66\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":\"2024-08-17T16:33:41\",\"cart_hash\":\"112be4b3c82a7f321afa9074b1bffff1\",\"number\":\"1316\",\"meta_data\":[{\"id\":750,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":749,\"key\":\"_billing_cpf\",\"value\":\"068.149.843-93\"},{\"id\":752,\"key\":\"_billing_neighborhood\",\"value\":\"conjunto s\\u00e3o francisco\"},{\"id\":751,\"key\":\"_billing_number\",\"value\":\"256\"},{\"id\":748,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":757,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":766,\"key\":\"_tribe_mail_sent\",\"value\":\"1\"},{\"id\":756,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1301\":[{\"tribe-tickets-plus-iac-name\":\"carlos siqueira\",\"tribe-tickets-plus-iac-email\":\"carlos@carlos.com.br\",\"telefone\":\"85998237410\",\"rg\":\"132132123123132\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1938-01-01\",\"locais-de-embarque\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"},{\"tribe-tickets-plus-iac-name\":\"teste123\",\"tribe-tickets-plus-iac-email\":\"teste123@aa.com\",\"telefone\":\"2323333232323\",\"rg\":\"2132133131313\",\"orgao-emissor\":\"ssp\",\"data-de-nascimento\":\"1946-03-23\",\"locais-de-embarque\":\"19:30 \\u2013 Shopping Parangaba\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"},{\"tribe-tickets-plus-iac-name\":\"aaaaa\",\"tribe-tickets-plus-iac-email\":\"aaaa@aa.com\",\"telefone\":\"2131313313213\",\"rg\":\"231232132313\",\"orgao-emissor\":\"ssp\",\"data-de-nascimento\":\"1983-11-04\",\"locais-de-embarque\":\"20:00 \\u2013 Posto Ipiranga ao lado do Terminal de Messejana\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"}]}},{\"id\":765,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":763,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"17\"},{\"id\":760,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"https:\\/\\/wess.blog\\/\"},{\"id\":762,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"8\"},{\"id\":761,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-06 18:35:08\"},{\"id\":758,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":764,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\"},{\"id\":759,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":753,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":61,\"name\":\"Teste\",\"product_id\":1301,\"variation_id\":0,\"quantity\":3,\"tax_class\":\"\",\"subtotal\":\"0.00\",\"subtotal_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":593,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"},{\"id\":594,\"key\":\"_reduced_stock\",\"value\":\"3\",\"display_key\":\"_reduced_stock\",\"display_value\":\"3\"}],\"sku\":\"1301-1-TESTE\",\"price\":0,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/wess.blog\\/finalizar-compra\\/order-pay\\/1316\\/?pay_for_order=true&key=wc_order_FGB7cxO8Dtime\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-17T16:33:40\",\"date_modified_gmt\":\"2024-08-17T16:33:42\",\"date_completed_gmt\":null,\"date_paid_gmt\":\"2024-08-17T16:33:41\",\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1316\"}],\"collection\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => cURL error 28: Operation timed out after 60001 milliseconds with 0 bytes received
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-08-17T16:36:10+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7659160c8ebd5913ccd19f6a486e147d
+            [Date] => 17 de agosto de 2024 @ 16:36
+            [URL] => https://4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app/financeiro/createByHook
+            [Duration] => 60.21399
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => FuF0W3mAS4P7RNFEpMbw/ofJ7LMsO6Zr/x3K9mQvRzM=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 7659160c8ebd5913ccd19f6a486e147d
+                        )
+
+                )
+
+            [Body] => {\"id\":1316,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"BRL\",\"version\":\"9.1.4\",\"prices_include_tax\":false,\"date_created\":\"2024-08-17T16:33:40\",\"date_modified\":\"2024-08-17T16:33:42\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_FGB7cxO8Dtime\",\"billing\":{\"first_name\":\"wermeson\",\"last_name\":\"soares\",\"company\":\"\",\"address_1\":\"Rua Joana\",\"address_2\":\"\",\"city\":\"Acarape\",\"state\":\"CE\",\"postcode\":\"62785-000\",\"country\":\"BR\",\"email\":\"wermeson.blucomet@gmail.com\",\"phone\":\"(85) 98589-2221\",\"number\":\"256\",\"neighborhood\":\"conjunto s\\u00e3o francisco\",\"persontype\":\"F\",\"cpf\":\"06814984393\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"\",\"payment_method_title\":\"\",\"transaction_id\":\"\",\"customer_ip_address\":\"2804:248:fb39:e300:4de2:fcd1:5156:bc66\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":\"2024-08-17T16:33:41\",\"cart_hash\":\"112be4b3c82a7f321afa9074b1bffff1\",\"number\":\"1316\",\"meta_data\":[{\"id\":750,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":749,\"key\":\"_billing_cpf\",\"value\":\"068.149.843-93\"},{\"id\":752,\"key\":\"_billing_neighborhood\",\"value\":\"conjunto s\\u00e3o francisco\"},{\"id\":751,\"key\":\"_billing_number\",\"value\":\"256\"},{\"id\":748,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":757,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":766,\"key\":\"_tribe_mail_sent\",\"value\":\"1\"},{\"id\":756,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1301\":[{\"tribe-tickets-plus-iac-name\":\"carlos siqueira\",\"tribe-tickets-plus-iac-email\":\"carlos@carlos.com.br\",\"telefone\":\"85998237410\",\"rg\":\"132132123123132\",\"orgao-emissor\":\"SSP\",\"data-de-nascimento\":\"1938-01-01\",\"locais-de-embarque\":\"19:00 \\u2013 North Shopping\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"},{\"tribe-tickets-plus-iac-name\":\"teste123\",\"tribe-tickets-plus-iac-email\":\"teste123@aa.com\",\"telefone\":\"2323333232323\",\"rg\":\"2132133131313\",\"orgao-emissor\":\"ssp\",\"data-de-nascimento\":\"1946-03-23\",\"locais-de-embarque\":\"19:30 \\u2013 Shopping Parangaba\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"},{\"tribe-tickets-plus-iac-name\":\"aaaaa\",\"tribe-tickets-plus-iac-email\":\"aaaa@aa.com\",\"telefone\":\"2131313313213\",\"rg\":\"231232132313\",\"orgao-emissor\":\"ssp\",\"data-de-nascimento\":\"1983-11-04\",\"locais-de-embarque\":\"20:00 \\u2013 Posto Ipiranga ao lado do Terminal de Messejana\",\"termos-de-uso-e-dados-cadastrais_afb3ccd1db573a8b66a6f513649997a7\":\"Aceitar\"}]}},{\"id\":765,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":763,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"17\"},{\"id\":760,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"https:\\/\\/wess.blog\\/\"},{\"id\":762,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"8\"},{\"id\":761,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-06 18:35:08\"},{\"id\":758,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":764,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/127.0.0.0 Safari\\/537.36\"},{\"id\":759,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":753,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":61,\"name\":\"Teste\",\"product_id\":1301,\"variation_id\":0,\"quantity\":3,\"tax_class\":\"\",\"subtotal\":\"0.00\",\"subtotal_tax\":\"0.00\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":593,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"},{\"id\":594,\"key\":\"_reduced_stock\",\"value\":\"3\",\"display_key\":\"_reduced_stock\",\"display_value\":\"3\"}],\"sku\":\"1301-1-TESTE\",\"price\":0,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/wess.blog\\/finalizar-compra\\/order-pay\\/1316\\/?pay_for_order=true&key=wc_order_FGB7cxO8Dtime\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-17T16:33:40\",\"date_modified_gmt\":\"2024-08-17T16:33:42\",\"date_completed_gmt\":null,\"date_paid_gmt\":\"2024-08-17T16:33:41\",\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1316\"}],\"collection\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => cURL error 28: Operation timed out after 60001 milliseconds with 0 bytes received
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)

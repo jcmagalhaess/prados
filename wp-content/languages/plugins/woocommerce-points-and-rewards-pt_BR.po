@@ -1,0 +1,750 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-11 16:54:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: WooCommerce - Extensions - woocommerce-points-and-rewards\n"
+
+#: includes/class-wc-points-rewards-product-block-editor.php:75
+#: includes/class-wc-points-rewards-product-block-editor.php:107
+msgid "Please enter only a number or percentage."
+msgstr "Insira apenas um número ou porcentagem."
+
+#: includes/class-wc-points-rewards-admin.php:1322
+msgid "All points and rewards messages settings successfully deleted"
+msgstr "Todas as configurações de mensagem das recompensas e pontos foram excluídas com êxito"
+
+#: includes/class-wc-points-rewards-admin.php:1288
+msgid "Use this action to remove all custom messages, for instance, after changing your site language. After completing this action, go to the extension settings to set new messages. This action cannot be undone."
+msgstr "Use esta ação para remover todas as mensagens personalizadas, por exemplo, ao mudar o idioma do seu site. Após concluir essa ação, acesse as configurações da extensão para configurar novas mensagens. Essa ação não pode ser desfeita."
+
+#: includes/class-wc-points-rewards-admin.php:1284
+msgid "Remove all points and rewards messages settings."
+msgstr "Remova todas as configurações de mensagens das recompensas e pontos."
+
+#: includes/class-wc-points-rewards-admin.php:1283
+msgid "Remove Points and Rewards Messages Settings"
+msgstr "Remover configurações de mensagens das recompensas e pontos"
+
+#: includes/class-wc-points-rewards-admin.php:1277
+msgid "This action will remove all customer points and cannot be undone."
+msgstr "Esta ação removerá todos os pontos do cliente e não poderá ser desfeita."
+
+#: includes/class-wc-points-rewards-admin.php:1276
+#: includes/class-wc-points-rewards-admin.php:1287
+msgid "Note:"
+msgstr "Observação:"
+
+#. translators: %1$s - Plugin Name, %2$s - Plugin version, %3$s - WordPress
+#. version number
+#: vendor/woocommerce/grow/src/Checks/WPCompatibility.php:39
+msgid "%1$s - %2$s is untested with WordPress %3$s."
+msgstr "A versão %2$s do plugin %1$s não foi testada com o WordPress %3$s."
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - WooCommerce version
+#. number, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:360
+msgid "Heads up! %1$s will soon discontinue support for WooCommerce %2$s. Please %3$supdate WooCommerce%4$s to take advantage of the latest updates and features."
+msgstr "Atenção! O plugin %1$s não será mais compatível com o WooCommerce %2$s. %3$sAtualize o WooCommerce%4$s para aproveitar as vantagens das atualizações e funcionalidades mais recentes."
+
+#. translators: %1$s - Plugin Name, %2$s - Plugin version, %3$s - WooCommerce
+#. version number
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:333
+msgid "%1$s - version %2$s is untested with WooCommerce %3$s."
+msgstr "A versão %2$s do plugin %1$s não foi testada com o WooCommerce %3$s."
+
+#. translators: %1$s - Plugin Name, %2$s - minimum WooCommerce version, %3$s -
+#. update WooCommerce link open, %4$s - update WooCommerce link close, %5$s -
+#. download minimum WooCommerce link open, %6$s - download minimum WooCommerce
+#. link close.
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:307
+msgid "%1$s requires WooCommerce version %2$s or higher. Please %3$supdate WooCommerce%4$s to the latest version, or %5$sdownload the minimum required version &raquo;%6$s"
+msgstr "O plugin %1$s requer o WooCommerce na versão %2$s ou mais recente. %3$sAtualize o WooCommerce%4$s para a versão mais recente ou %5$sfaça download da versão mínima obrigatória »%6$s"
+
+#. translators: %1$s - Plugin Name, %2$s - install WooCommerce link open, %3$s
+#. - install WooCommerce link close.
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:280
+msgid "%1$s requires WooCommerce to be installed and activated. Please %2$sinstall WooCommerce%3$s."
+msgstr "O plugin %1$s exige que o WooCommerce esteja instalado e ativado. %2$sInstale o WooCommerce.%3$s"
+
+#. translators: %1$s - Plugin Name, %2$s - activate WooCommerce link open, %3$s
+#. - activate WooCommerce link close.
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:262
+msgid "%1$s requires WooCommerce to be activated. Please %2$sactivate WooCommerce%3$s."
+msgstr "O plugin %1$s exige que o WooCommerce esteja ativado. %2$sAtive o WooCommerce.%3$s"
+
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:119
+msgid "WooCommerce version not compatible."
+msgstr "Versão do WooCommerce não compatível."
+
+#: vendor/woocommerce/grow/src/Checks/WCCompatibility.php:105
+msgid "WooCommerce is not installed or activated."
+msgstr "O WooCommerce não está instalado ou ativado."
+
+#: includes/class-wc-points-rewards-admin.php:732
+msgid "This includes plugin settings, users' points, points log, point settings for products, point settings for product categories, and point settings for coupons."
+msgstr "Isso inclui configurações de plugin, pontos dos usuários, registro de pontos, configurações de pontos para categorias de produtos e configurações de pontos para produtos e cupons."
+
+#: includes/class-wc-points-rewards-admin.php:731
+msgid "Delete plugin data when plugin is deleted"
+msgstr "Excluir dados do plugin quando o plugin for excluído"
+
+#: includes/class-wc-points-rewards-admin.php:730
+msgid "Delete plugin data"
+msgstr "Excluir dados do plugin"
+
+#: includes/class-wc-points-rewards-admin.php:725
+msgid "Advanced Settings"
+msgstr "Configurações avançadas"
+
+#: includes/class-wc-points-rewards-product-admin.php:148
+msgid "For Subscription renewals with a different point value than the signup, enter either a fixed number of points, or a percentage which assigns points based on the price. For example, enter 5 to award 5 points, or enter 50% to award points equal to half the normal rate."
+msgstr "Para renovações de assinatura com um ponto de valor diferente do da inscrição, informe um número fixo de pontos ou uma porcentagem que atribui pontos com base no preço. Por exemplo, informe 5 para conceder cinco pontos, ou informe 50% para conceder pontos iguais à metade da taxa normal."
+
+#: includes/class-wc-points-rewards-actions.php:159
+msgid "ReviewsUtil class not found"
+msgstr "Classe ReviewsUtil não encontrada"
+
+#. translators: %s property name.
+#: woocommerce-points-and-rewards.php:276
+msgid "The %s property is private and should not be accessed outside its class."
+msgstr "A propriedade %s é privada e não deve ser acessada fora da aula."
+
+#. translators: %1$d - Points Balance, %2$s - Points Label
+#: templates/myaccount/my-points.php:20
+msgid "You have %1$d %2$s"
+msgstr "Você tem %1$d %2$s"
+
+#. translators: %1$s - Points Label, %2$s - User's display name.
+#: includes/class-wc-points-rewards-manager.php:85
+msgid "%1$s adjusted by %2$s"
+msgstr "%2$s ajustou %1$s"
+
+#: includes/class-wc-points-rewards-admin.php:592
+#: includes/class-wc-points-rewards-admin.php:602
+msgid "Enter amount or percentage value"
+msgstr "Insira o valor ou percentual"
+
+#: includes/class-wc-points-rewards-admin.php:582
+msgid "Enter amount"
+msgstr "Insira o valor"
+
+#: includes/class-wc-points-rewards-extend-store-endpoint.php:126
+msgid "Max number of points able to be redeemed"
+msgstr "Número máximo de pontos resgatáveis"
+
+#: includes/class-wc-points-rewards-extend-store-endpoint.php:120
+msgid "Message to user inviting them to redeem points"
+msgstr "Mensagem ao usuário incentivando o resgate de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:622
+msgid "This is the label that is seen by shoppers on your store. By default, the label will be Point / Points. You can customize your own singular and plural labels here."
+msgstr "Este é o rótulo visto pelos clientes na sua loja. Por padrão, o rótulo será Ponto/Pontos. É possível personalizar seus próprios rótulos singulares e plurais aqui."
+
+#: includes/class-wc-points-rewards-admin.php:552
+msgid "Always round up"
+msgstr "Sempre arredondar para cima"
+
+#: includes/class-wc-points-rewards-admin.php:551
+msgid "Always round down"
+msgstr "Sempre arredondar para baixo"
+
+#: includes/class-wc-points-rewards-admin.php:550
+msgid "Round to nearest integer"
+msgstr "Arredondar para o número inteiro mais próximo"
+
+#: includes/class-wc-points-rewards-extend-store-endpoint.php:114
+msgid "Points generated message"
+msgstr "Mensagem gerada por pontos"
+
+#. translators: %s is the custom name for points, %d is the minimum number of
+#. points the user must spend
+#: includes/class-wc-points-rewards-cart-checkout.php:291
+msgid "The minimum number of %s you can redeem is %d."
+msgstr "O mínimo de %s que você pode resgatar é %d."
+
+#: includes/class-wc-points-rewards-admin.php:994
+#: includes/class-wc-points-rewards-admin.php:1032
+msgctxt "placeholder"
+msgid "YYYY-MM-DD"
+msgstr "DD-MM-YYYY"
+
+#: woocommerce-points-and-rewards.php:478
+msgid "Configure"
+msgstr "Configurar"
+
+#: templates/myaccount/my-points.php:54
+msgid "Next"
+msgstr "Próximo"
+
+#: templates/myaccount/my-points.php:50
+msgid "Previous"
+msgstr "Anterior"
+
+#. translators: %s - Points Label
+#: templates/myaccount/my-points.php:17
+msgid "My %s"
+msgstr "Meu %s"
+
+#. translators: 1: points
+#: includes/class-wc-points-rewards-product.php:192
+msgid "Earn at least <strong>%d</strong> points by purchasing this product."
+msgstr "Ganhe pelo menos <strong>%d</strong> pontos na compra deste produto."
+
+#: includes/class-wc-points-rewards-product-admin.php:455
+msgid "Category Points Earned"
+msgstr "Pontos obtidos na categoria"
+
+#: includes/class-wc-points-rewards-product-admin.php:449
+msgid "Enter either a fixed maximum discount amount or percentage which restricts the amount of points that can be redeemed for a discount based on the price of the product in this category. For example, if you want to restrict the discount on this category to a maximum of 50%, enter 50%, or enter $5 to restrict the maximum discount to $5.  This setting overrides the global default, but can be overridden by a product/variation. Use 0 to disable point discounts for this product, and blank to use the global/category default."
+msgstr "Insira um valor fixo ou percentual de desconto máximo para restringir quantos pontos de desconto podem ser resgatados com base no preço do produto nesta categoria. Por exemplo, para restringir o desconto nesta categoria a até 50%, insira 50%. Já para restringir a USD 5, insira USD 5.  Essa configuração substitui a definição global padrão, mas pode ser substituída por uma variação de/produto. Use 0 para desabilitar os descontos por pontos para este produto e deixe em branco para usar a definição global/padrão da categoria."
+
+#: includes/class-wc-points-rewards-product-admin.php:448
+msgid "This can either be a fixed number of points earned for the purchase of any product that belongs to this category, or a percentage which assigns points based on the price of the product. For example, if you want to award points equal to double the normal rate, enter 200%.  This setting modifies the global Points Conversion Rate, but can be overridden by a product/variation. Use 0 to assign no points for products belonging to this category, and empty to use the global setting."
+msgstr "Pode ser um número fixo de pontos obtidos pela compra de qualquer produto desta categoria ou um percentual que atribui os pontos com base no preço do produto. Por exemplo, se quiser conceder o dobro de pontos da taxa usual, insira 200%.  Essa configuração modifica a taxa de conversão de pontos global, mas pode ser substituída por uma variação de/produto. Use 0 para não atribuir pontos para produtos desta categoria e deixe em branco para usar a definição global."
+
+#: includes/class-wc-points-rewards-product-admin.php:347
+msgid "Enter Points Earned"
+msgstr "Inserir pontos obtidos"
+
+#: includes/class-wc-points-rewards-product-admin.php:337
+msgid "Decrease by (fixed amount or %):"
+msgstr "Diminuir em (valor fixo ou %):"
+
+#: includes/class-wc-points-rewards-product-admin.php:336
+msgid "Increase by (fixed amount or %):"
+msgstr "Aumentar em (valor fixo ou %):"
+
+#: includes/class-wc-points-rewards-product-admin.php:335
+msgid "Change to:"
+msgstr "Alterar para:"
+
+#: includes/class-wc-points-rewards-product-admin.php:334
+msgid "— No Change —"
+msgstr "— Sem mudanças —"
+
+#: includes/class-wc-points-rewards-product-admin.php:305
+msgid "Enter a value"
+msgstr "Informe um valor"
+
+#: includes/class-wc-points-rewards-product-admin.php:234
+msgid "Variation Change Rewards Points"
+msgstr "Alterar pontos de recompensa da variação"
+
+#: includes/class-wc-points-rewards-product-admin.php:227
+msgid "Variation Max Points Discount"
+msgstr "Máx. de desconto por pontos da variação"
+
+#: includes/class-wc-points-rewards-product-admin.php:222
+msgid "Variation Points Earned"
+msgstr "Pontos obtidos da variação"
+
+#: includes/class-wc-points-rewards-product-admin.php:215
+msgid "This can either be a fixed number of points earned for purchasing this variation, or a percentage which assigns points based on the price. For example, if you want to award points equal to double the the normal rate, enter 200%.  This setting modifies the global Points Conversion Rate and overrides any category value.  Use 0 to assign no points for this variation, and empty to use the global/category settings."
+msgstr "Pode ser um número fixo de pontos obtidos pela compra desta variação ou um percentual que atribui os pontos com base no preço. Por exemplo, se quiser conceder o dobro de pontos da taxa usual, insira 200%.  Esta configuração modifica a taxa de conversão de pontos global e substitui quaisquer valores da categoria.  Use 0 para não atribuir pontos para esta variação e deixe em branco para usar as definições/globais da categoria."
+
+#: includes/class-wc-points-rewards-product-admin.php:217
+#: includes/class-wc-points-rewards-product-admin.php:450
+msgid "For Subscription renewals with a different point value than the signup, enter either a fixed maximum discount amount or percentage which restricts the amount of points that can be redeemed for a discount based on the product price. For example, if you want to restrict the discount on this product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum discount to $5.  This setting overrides the global/category defaults, use 0 to disable point discounts for this product, and blank to use the global/category default."
+msgstr "No caso de renovações de assinatura com valor de pontos diferente, insira um valor fixo ou percentual de desconto máximo para restringir quantos pontos de desconto podem ser resgatados com base no preço do produto. Por exemplo, para restringir o desconto do produto a até 50%, insira 50%. Já para restringir a USD 5, insira USD 5.  Essa configuração substitui as definições globais/da categoria. Use 0 para desabilitar os descontos por pontos para este produto e deixe em branco para usar a definição global/padrão da categoria."
+
+#: includes/class-wc-points-rewards-product-admin.php:147
+#: includes/class-wc-points-rewards-product-admin.php:233
+#: includes/class-wc-points-rewards-product-admin.php:470
+msgid "Change Renewal Points"
+msgstr "Alterar pontos de renovação"
+
+#: includes/class-wc-points-rewards-product-admin.php:216
+#: includes/trait-product-editor-field-strings.php:10
+msgid "Enter either a fixed maximum discount amount or percentage which restricts the amount of points that can be redeemed for a discount based on the product price. For example, if you want to restrict the discount on this product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum discount to $5.  This setting overrides the global/category defaults, use 0 to disable point discounts for this product, and blank to use the global/category default."
+msgstr "Insira um valor fixo ou percentual de desconto máximo para restringir quantos pontos de desconto podem ser resgatados com base no preço do produto. Por exemplo, para restringir o desconto do produto a até 50%, insira 50%. Já para restringir a USD 5, insira USD 5.  Essa configuração substitui as definições globais/da categoria. Use 0 para desabilitar os descontos por pontos para este produto e deixe em branco para usar a definição global/padrão da categoria."
+
+#: includes/class-wc-points-rewards-product-admin.php:132
+#: includes/class-wc-points-rewards-product-block-editor.php:102
+msgid "Maximum Discount"
+msgstr "Desconto máximo"
+
+#: includes/trait-product-editor-field-strings.php:6
+msgid "This can be either a fixed number of points earned for purchasing this product, or a percentage which assigns points based on the price. For example, if you want to award points equal to double the normal rate, enter 200%.  This setting modifies the global Points Conversion Rate and overrides any category value.  Use 0 to assign no points for this product, and empty to use the global/category settings."
+msgstr "Pode ser um número fixo de pontos obtidos pela compra deste produto ou um percentual que atribui os pontos com base no preço. Por exemplo, se quiser conceder o dobro de pontos da taxa usual, insira 200%.  Esta configuração modifica a taxa de conversão de pontos global e substitui quaisquer valores da categoria.  Use 0 para não atribuir pontos para este produto e deixe em branco para usar as definições/globais da categoria."
+
+#: includes/class-wc-points-rewards-product-admin.php:118
+#: includes/class-wc-points-rewards-product-admin.php:221
+#: includes/class-wc-points-rewards-product-admin.php:295
+#: includes/class-wc-points-rewards-product-admin.php:329
+#: includes/class-wc-points-rewards-product-admin.php:453
+#: includes/class-wc-points-rewards-product-admin.php:550
+#: includes/class-wc-points-rewards-product-block-editor.php:71
+msgid "Points Earned"
+msgstr "Pontos obtidos"
+
+#. translators: %s is the privacy policy URL
+#: includes/class-wc-points-rewards-privacy.php:21
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr "Ao usar esta extensão, você pode estar armazenando dados pessoais ou compartilhando dados com um serviço externo. <a href=\"%s\" target=\"_blank\">Saiba mais sobre isso, incluindo o que você pode inserir na sua política de privacidade.</a>"
+
+#: includes/class-wc-points-rewards-points-log.php:131
+msgid "%s ago"
+msgstr "%s atrás"
+
+#. translators: %1$s month, %2$d year
+#: includes/class-wc-points-rewards-points-log-list-table.php:348
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:333
+msgid "Show all Event Dates"
+msgstr "Exibir todas as datas de eventos"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:290
+msgid "Show All Event Types"
+msgstr "Exibir todos os tipos de evento"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:247
+msgid "Point log entries will appear here for you to view and manage."
+msgstr "As entradas do registro de pontos serão exibidas aqui para que você visualize e gerencie."
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:245
+msgid "No log entries found"
+msgstr "Nenhuma entrada de registro encontrada"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:115
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:62
+#: templates/myaccount/my-points.php:27
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:61
+#: templates/myaccount/my-points.php:26
+msgid "Event"
+msgstr "Evento"
+
+#. translators: 1: points redeemed 2: points redeemed label
+#: includes/class-wc-points-rewards-order.php:350
+msgid "%1$d %2$s credited back to customer."
+msgstr "%1$d %2$s de crédito devolvido ao cliente."
+
+#. translators: 1: points earned 2: points earned label
+#: includes/class-wc-points-rewards-order.php:333
+#: includes/class-wc-points-rewards-order.php:389
+msgid "%1$d %2$s removed."
+msgstr "%1$d %2$s removidos."
+
+#. translators: 1: points earned 2: points label 3: discount amount
+#: includes/class-wc-points-rewards-order.php:271
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr "%1$d %2$s trocados por um desconto de %3$s."
+
+#. translators: 1: points 2: points label
+#: includes/class-wc-points-rewards-order.php:120
+msgid "Customer earned %1$d %2$s for purchase."
+msgstr "O cliente ganhou %1$d %2$s pela compra."
+
+#: includes/class-wc-points-rewards-manager.php:91
+msgid "%s expired"
+msgstr "%s expirado"
+
+#: includes/class-wc-points-rewards-manager.php:90
+msgid "%s redeemed towards purchase"
+msgstr "%s resgatados pela compra"
+
+#: includes/class-wc-points-rewards-manager.php:89
+msgid "%s adjusted for an order refund"
+msgstr "%s ajustado para reembolso do pedido"
+
+#: includes/class-wc-points-rewards-manager.php:88
+msgid "%s adjusted for cancelled order"
+msgstr "%s ajustado para pedido cancelado"
+
+#: includes/class-wc-points-rewards-manager.php:87
+msgid "%s earned for purchase"
+msgstr "%s obtido(s) pela compra"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:429
+#: includes/class-wc-points-rewards-points-log-list-table.php:305
+msgid "Filter"
+msgstr "Filtrar"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:419
+#: includes/class-wc-points-rewards-points-log-list-table.php:280
+msgid "Show All Customers"
+msgstr "Exibir todos os clientes"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:412
+#: includes/class-wc-points-rewards-points-log-list-table.php:272
+msgid "Invalid customer"
+msgstr "Cliente inválido"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:388
+msgid "User points will appear here for you to view and manage once you have customers."
+msgstr "Os pontos do usuário serão exibidos aqui para que você visualize e gerencie os clientes."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:386
+msgid "No user points found"
+msgstr "Nenhum ponto encontrado para o usuário"
+
+#. translators: %d: number of customers not updated
+#: includes/class-wc-points-rewards-manage-points-list-table.php:243
+msgid "%s customer could not be updated."
+msgid_plural "%s customers could not be updated."
+msgstr[0] "Não foi possível atualizar %s cliente."
+msgstr[1] "Não foi possível atualizar %s clientes."
+
+#. translators: %d: number of customers updated
+#: includes/class-wc-points-rewards-manage-points-list-table.php:239
+msgid "%s customer updated."
+msgid_plural "%s customers updated."
+msgstr[0] "%s cliente atualizado."
+msgstr[1] "%s clientes atualizados."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:75
+#: includes/class-wc-points-rewards-points-log-list-table.php:59
+msgid "Customer"
+msgstr "Cliente"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:58
+#: includes/class-wc-points-rewards-manage-points-list-table.php:77
+#: includes/class-wc-points-rewards-manage-points-list-table.php:159
+msgid "Update"
+msgstr "Atualizar"
+
+#: includes/class-wc-points-rewards-discount.php:108
+#: includes/class-wc-points-rewards-legacy-discount.php:133
+msgid "Discount Applied Successfully"
+msgstr "Desconto aplicado com êxito"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:779
+msgid "How many points would you like to apply?"
+msgstr "Quantos pontos deseja aplicar?"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:526
+msgid "Apply Discount"
+msgstr "Aplicar desconto"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:75
+msgid "Points redemption"
+msgstr "Resgate de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:1305
+msgid "All points and rewards successfully deleted"
+msgstr "Todos os pontos e recompensas foram excluídos com êxito"
+
+#: includes/class-wc-points-rewards-admin.php:1273
+msgid "Delete all points and rewards and clear the logs."
+msgstr "Exclua todos os pontos e recompensas e limpe os registros."
+
+#: includes/class-wc-points-rewards-admin.php:1272
+msgid "Reset Points and Rewards"
+msgstr "Redefinir pontos e recompensas"
+
+#: includes/class-wc-points-rewards-admin.php:1210
+msgid "Enter a percentage which modifies how points are earned when this coupon is applied. For example, enter 200% to double the amount of points typically earned when the coupon is applied."
+msgstr "Insira o percentual em que os pontos obtidos são modificados quando um cupom é aplicado. Por exemplo, insira 200% para duplicar o número de pontos obtidos normalmente ao aplicar o cupom."
+
+#: includes/class-wc-points-rewards-admin.php:1209
+msgid "Points Modifier"
+msgstr "Modificador de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:1187
+msgid "Redeemed:"
+msgstr "Resgatados:"
+
+#: includes/class-wc-points-rewards-admin.php:1184
+#: includes/class-wc-points-rewards-admin.php:1188
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/class-wc-points-rewards-admin.php:1183
+msgid "Earned:"
+msgstr "Obtidos:"
+
+#. translators: %s number of orders updated.
+#: includes/class-wc-points-rewards-admin.php:1153
+msgid "%s order updated."
+msgid_plural "%s orders updated."
+msgstr[0] "%s pedido atualizado."
+msgstr[1] "%s pedidos atualizados."
+
+#: includes/class-wc-points-rewards-admin.php:1113
+msgid "Database error while applying user points."
+msgstr "Erro no banco de dados ao aplicar os pontos do usuário."
+
+#. translators: %1$s, %2$s - open and close strong tag, %3$s, %4$s - open and
+#. close em tag
+#: includes/class-wc-points-rewards-admin.php:1031
+msgid "%1$sSince%2$s - %3$sOptional%4$s: Leave blank to apply to all orders"
+msgstr "%1$sDesde%2$s - %3$sOpcional%4$s: deixe em branco para aplicar a todos os pedidos"
+
+#: includes/class-wc-points-rewards-admin.php:995
+msgid "Leave blank to apply to all points"
+msgstr "Deixe em branco para aplicar a todos os pontos"
+
+#. translators: %1$s, %2$s - open and close strong tag, %3$s, %4$s - open and
+#. close em tag
+#: includes/class-wc-points-rewards-admin.php:993
+msgid "%1$sOnly apply to points earned since%2$s - %3$sOptional%4$s"
+msgstr "%1$sAplicar somente a pontos obtidos a partir de%2$s - %3$sOpcional%4$s"
+
+#: includes/class-wc-points-rewards-admin.php:715
+msgid "Apply Points"
+msgstr "Aplicar pontos"
+
+#: includes/class-wc-points-rewards-admin.php:714
+msgid "This will apply points to all previous orders (paid or completed) and cannot be reversed."
+msgstr "Esta ação aplicará os pontos a todos os pedidos anteriores (pagos ou concluídos) e não poderá ser desfeita."
+
+#: includes/class-wc-points-rewards-admin.php:713
+msgid "Apply Points to Previous Orders"
+msgstr "Aplicar pontos a pedidos anteriores"
+
+#: includes/class-wc-points-rewards-admin.php:708
+msgid "Actions"
+msgstr "Ações"
+
+#: includes/class-wc-points-rewards-admin.php:699
+msgid "Customers can also earn points for actions like creating an account or writing a product review. You can enter the amount of points the customer will earn for each action in this section."
+msgstr "Os clientes também podem ganhar pontos por ações como criar uma conta ou avaliar um produto. Insira nesta seção quantos pontos serão obtidos pelas ações individuais."
+
+#: includes/class-wc-points-rewards-admin.php:698
+msgid "Points Earned for Actions"
+msgstr "Pontos obtidos por ações"
+
+#: includes/class-wc-points-rewards-admin.php:691
+msgid "You have earned %s for this order. You have a total of %s."
+msgstr "Você ganhou %s por este pedido. Você tem um total de %s."
+
+#: includes/class-wc-points-rewards-admin.php:688
+msgid "Displayed on the thank you / order received page when points were earned. Customize the message using {points}, {total_points}, {points_label}, and {total_points_label}. Limited HTML is allowed."
+msgstr "Displayed on the thank you / order received page when points were earned. Customize the message using {points}, {total_points}, {points_label}, and {total_points_label}. O HTML limitado é permitido."
+
+#: includes/class-wc-points-rewards-admin.php:687
+msgid "Thank You / Order Received Page Message"
+msgstr "Mensagem da página de agradecimento / por pedido recebido"
+
+#: includes/class-wc-points-rewards-admin.php:681
+msgid "Use %s for a %s discount on this order!"
+msgstr "Use %s para ganhar um desconto de %s neste pedido!"
+
+#: includes/class-wc-points-rewards-admin.php:678
+msgid "Displayed on the cart and checkout page when points are available for redemption. Customize the message using {points}, {points_value}, and {points_label}. Limited HTML is allowed."
+msgstr "Displayed on the cart and checkout page when points are available for redemption. Customize the message using {points}, {points_value}, and {points_label}. O HTML limitado é permitido."
+
+#: includes/class-wc-points-rewards-admin.php:677
+msgid "Redeem Points Cart/Checkout Page Message"
+msgstr "Mensagem da página de pagamento/do carrinho com pontos de resgate"
+
+#: includes/class-wc-points-rewards-admin.php:671
+msgid "Complete your order and earn %s for a discount on a future purchase"
+msgstr "Finalize seu pedido e ganhe %s de desconto em sua próxima compra"
+
+#: includes/class-wc-points-rewards-admin.php:668
+msgid "Displayed on the cart and checkout page when points are earned. Customize the message using {points} and {points_label}. Limited HTML is allowed."
+msgstr "Displayed on the cart and checkout page when points are earned. Customize the message using {points} and {points_label}. O HTML limitado é permitido."
+
+#: includes/class-wc-points-rewards-admin.php:667
+msgid "Earn Points Cart/Checkout Page Message"
+msgstr "Mensagem da página de pagamento/do carrinho com pontos obtidos"
+
+#: includes/class-wc-points-rewards-admin.php:661
+msgid "Earn up to %s."
+msgstr "Ganhe até %s."
+
+#: includes/class-wc-points-rewards-admin.php:658
+msgid "Add an optional message to the variable product page below the price. Customize the message using {points} and {points_label}. Limited HTML is allowed. Leave blank to disable."
+msgstr "Add an optional message to the variable product page below the price. Customize the message using {points} and {points_label}. O HTML limitado é permitido. Deixe em branco para desabilitar."
+
+#: includes/class-wc-points-rewards-admin.php:657
+msgid "Variable Product Page Message"
+msgstr "Mensagem da página de produto variável"
+
+#: includes/class-wc-points-rewards-admin.php:651
+msgid "Purchase this product now and earn %s!"
+msgstr "Compre este produto agora e ganhe %s!"
+
+#: includes/class-wc-points-rewards-admin.php:648
+msgid "Add an optional message to the single product page below the price. Customize the message using {points} and {points_label}. Limited HTML is allowed. Leave blank to disable."
+msgstr "Add an optional message to the single product page below the price. Customize the message using {points} and {points_label}. O HTML limitado é permitido. Deixe em branco para desabilitar."
+
+#: includes/class-wc-points-rewards-admin.php:647
+msgid "Single Product Page Message"
+msgstr "Mensagem da página de produto único"
+
+#: includes/class-wc-points-rewards-admin.php:640
+msgid "Adjust the message by using %1$s{points}%2$s and %1$s{points_label}%2$s to represent the points earned / available for redemption and the label set for points."
+msgstr "Ajuste a mensagem usando %1$s{points}%2$s e %1$s{points_label}%2$s para representar os pontos obtidos / que estão disponíveis para resgate e o rótulo definido para os pontos."
+
+#: includes/class-wc-points-rewards-admin.php:639
+msgid "Product / Cart / Checkout Messages"
+msgstr "Mensagem da página / de pagamento / do carrinho do produto"
+
+#: includes/class-wc-points-rewards-admin.php:631
+msgid "Set the period after which points expire once granted to a user"
+msgstr "Defina após quanto tempo os pontos concedidos ao usuário expiram"
+
+#: includes/class-wc-points-rewards-admin.php:630
+msgid "Points Expire After"
+msgstr "Pontos expiram após"
+
+#: includes/class-wc-points-rewards-admin.php:624
+#: includes/class-wc-points-rewards-admin.php:793
+#: includes/class-wc-points-rewards-admin.php:1180
+#: includes/class-wc-points-rewards-manage-points-list-table.php:41
+#: includes/class-wc-points-rewards-manage-points-list-table.php:76
+#: includes/class-wc-points-rewards-points-log-list-table.php:41
+#: includes/class-wc-points-rewards-points-log-list-table.php:60
+msgid "Points"
+msgstr "Pontos"
+
+#: includes/class-wc-points-rewards-admin.php:624
+#: includes/class-wc-points-rewards-manage-points-list-table.php:40
+#: includes/class-wc-points-rewards-points-log-list-table.php:40
+msgid "Point"
+msgstr "Ponto"
+
+#: includes/class-wc-points-rewards-admin.php:621
+msgid "Points Label"
+msgstr "Rótulo de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:609
+msgid "Whether or not points should apply to prices inclusive of tax."
+msgstr "Especifica se os pontos devem ser aplicados aos preços incluindo os impostos."
+
+#: includes/class-wc-points-rewards-admin.php:608
+msgid "Tax Setting"
+msgstr "Configuração do imposto"
+
+#: includes/class-wc-points-rewards-admin.php:599
+msgid "Set the maximum product discount allowed when redeeming points per-product. Use either a fixed monetary amount or a percentage based on the product price. Leave blank to disable. This can be overridden at the category and product level."
+msgstr "Defina o desconto máximo permitido para o produto ao resgatar pontos por produto. Use um valor fixo ou um percentual com base no preço do produto. Deixe em branco para desabilitar. Essa definição pode ser substituída no nível da categoria e do produto."
+
+#: includes/class-wc-points-rewards-admin.php:598
+msgid "Maximum Product Points Discount"
+msgstr "Desconto máximo por pontos do produto"
+
+#: includes/class-wc-points-rewards-admin.php:589
+msgid "Set the maximum product discount allowed for the cart when redeeming points. Use either a fixed monetary amount or a percentage based on the product price. Leave blank to disable."
+msgstr "Defina o desconto máximo permitido para o carrinho ao resgatar pontos. Use um valor fixo ou um percentual com base no preço do produto. Deixe em branco para desabilitar."
+
+#: includes/class-wc-points-rewards-admin.php:588
+#: includes/class-wc-points-rewards-product-admin.php:226
+#: includes/class-wc-points-rewards-product-admin.php:460
+msgid "Maximum Points Discount"
+msgstr "Desconto máximo por pontos"
+
+#: includes/class-wc-points-rewards-admin.php:579
+msgid "Set the minimum amount a user's points must add up to in order to redeem points. Use a fixed monetary amount or leave blank to disable."
+msgstr "Defina o número mínimo de pontos que o usuário deve adicionar para resgatar pontos. Use um valor monetário fixo ou deixe em branco para desabilitar."
+
+#: includes/class-wc-points-rewards-admin.php:578
+msgid "Minimum Points Discount"
+msgstr "Desconto mínimo por pontos"
+
+#: includes/class-wc-points-rewards-admin.php:570
+msgid "Lets users enter how many points they wish to redeem during cart/checkout."
+msgstr "Permite que os usuários insiram quantos pontos querem resgatar ao finalizar o pagamento/do carrinho."
+
+#: includes/class-wc-points-rewards-admin.php:569
+msgid "Enable partial redemption"
+msgstr "Habilitar resgate parcial"
+
+#: includes/class-wc-points-rewards-admin.php:568
+msgid "Partial Redemption"
+msgstr "Resgate parcial"
+
+#: includes/class-wc-points-rewards-admin.php:560
+msgid "Set the value of points redeemed for a discount."
+msgstr "Defina o número de pontos resgatados para um desconto."
+
+#: includes/class-wc-points-rewards-admin.php:559
+msgid "Redemption Conversion Rate"
+msgstr "Taxa de conversão de resgate"
+
+#: includes/class-wc-points-rewards-admin.php:546
+msgid "Set how points should be rounded."
+msgstr "Defina como os pontos devem ser arredondados."
+
+#: includes/class-wc-points-rewards-admin.php:545
+msgid "Earn Points Rounding Mode"
+msgstr "Modo de arredondamento dos pontos obtidos"
+
+#: includes/class-wc-points-rewards-admin.php:537
+msgid "Set the number of points awarded based on the product price."
+msgstr "Defina o número de pontos concedidos com base no preço do produto."
+
+#: includes/class-wc-points-rewards-admin.php:536
+msgid "Earn Points Conversion Rate"
+msgstr "Taxa de conversão de pontos obtidos"
+
+#: includes/class-wc-points-rewards-admin.php:529
+msgid "Points Settings"
+msgstr "Configurações de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:463
+msgid "Are you sure you want to apply points to all previous orders that have not already had points generated? This cannot be reversed! Note that this can take some time in shops with a large number of orders, if an error occurs, simply Apply Points again to continue the process."
+msgstr "Tem certeza de que deseja aplicar pontos a todos os pedidos anteriores que não tiveram pontos gerados? Essa ação não pode ser desfeita! Observe que pode demorar um pouco em lojas com muitos pedidos. Se houver um erro, clique em Aplicar pontos novamente para continuar o processo."
+
+#: includes/class-wc-points-rewards-admin.php:405
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+#: includes/class-wc-points-rewards-admin.php:350
+msgid "Manage Customer Points"
+msgstr "Gerenciar pontos de clientes"
+
+#: includes/class-wc-points-rewards-admin.php:176
+#: includes/class-wc-points-rewards-admin.php:177
+#: includes/class-wc-points-rewards-admin.php:201
+#: includes/class-wc-points-rewards-privacy.php:12
+msgid "Points & Rewards"
+msgstr "Pontos e recompensas"
+
+#. translators: %1$s link start, %2$s link end
+#: includes/class-wc-points-rewards-admin.php:129
+msgid "WooCommerce Points and Rewards requires coupons to be %1$senabled%2$s in order to function properly and allow customers to redeem points during checkout."
+msgstr "O WooCommerce Points and Rewards exige que os cupons estejam %1$shabilitados%2$s para funcionar corretamente e permitir que os clientes resgatem os pontos ao pagar."
+
+#: includes/class-wc-points-rewards-admin.php:47
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-wc-points-rewards-admin.php:46
+#: includes/class-wc-points-rewards-admin.php:233
+#: includes/class-wc-points-rewards-admin.php:379
+msgid "Points Log"
+msgstr "Registro de pontos"
+
+#: includes/class-wc-points-rewards-admin.php:45
+#: includes/class-wc-points-rewards-admin.php:239
+msgid "Manage Points"
+msgstr "Gerenciar pontos"
+
+#: includes/class-wc-points-rewards-actions.php:111
+msgid "%s earned for account signup"
+msgstr "%s obtidos por criar a conta"
+
+#: includes/class-wc-points-rewards-actions.php:110
+msgid "%s earned for product review"
+msgstr "%s obtidos por avaliar um produto"
+
+#: includes/class-wc-points-rewards-actions.php:77
+msgid "Enter the amount of points earned when a customer first reviews a product."
+msgstr "Insira o número de pontos obtidos quando o cliente avalia um produto pela primeira vez."
+
+#: includes/class-wc-points-rewards-actions.php:76
+msgid "Points earned for writing a review"
+msgstr "Pontos obtidos por fazer uma avaliação"
+
+#: includes/class-wc-points-rewards-actions.php:65
+msgid "Enter the amount of points earned when a customer signs up for an account."
+msgstr "Insira o número de pontos obtidos quando o cliente cria uma conta."
+
+#: includes/class-wc-points-rewards-actions.php:64
+msgid "Points earned for account signup"
+msgstr "Pontos obtidos por criar uma conta"

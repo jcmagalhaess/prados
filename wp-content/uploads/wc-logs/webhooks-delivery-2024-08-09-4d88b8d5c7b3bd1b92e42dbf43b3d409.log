@@ -1,0 +1,394 @@
+2024-08-09T00:30:54+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => b9a61d714c79f284d6418c0220cf0b01
+            [Date] => 9 de agosto de 2024 @ 00:30
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 60.13901
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => zd020KUCOUm4ABpXTLZoCS9VdzL6N5v4uwZ0BYY3O9M=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => b9a61d714c79f284d6418c0220cf0b01
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => cURL error 28: Operation timed out after 60001 milliseconds with 0 bytes received
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T00:37:47+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 50d71baf67ef22d85ebb63f844f54a96
+            [Date] => 9 de agosto de 2024 @ 00:37
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 5.61557
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => YzWCWa6N/r4fqot9d8bSy0AqQ4VB2KCKOqRTDX9oqvw=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 50d71baf67ef22d85ebb63f844f54a96
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-length] => 36
+                                    [content-type] => text/html; charset=utf-8
+                                    [date] => Fri, 09 Aug 2024 00:37:47 GMT
+                                    [etag] => W/"24-sa9Cpi1/Lmm/9wg9VIYPvHBslqg"
+                                    [vary] => Origin
+                                    [x-powered-by] => Express
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T00:45:01+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 67e24f8e158eb92fde027a75cba125fa
+            [Date] => 9 de agosto de 2024 @ 00:45
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 5.12187
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => SWMyIl++5iCUFJ/GDFfaZkNmmiLio0hCkbeifdzfIdc=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 67e24f8e158eb92fde027a75cba125fa
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-length] => 36
+                                    [content-type] => text/html; charset=utf-8
+                                    [date] => Fri, 09 Aug 2024 00:45:00 GMT
+                                    [etag] => W/"24-4ziiwrfZhZDPrjaLrQSY7pYi0is"
+                                    [vary] => Origin
+                                    [x-powered-by] => Express
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T00:49:24+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => fcf87225cf43e06506298ad6b56210d0
+            [Date] => 9 de agosto de 2024 @ 00:49
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 3.61949
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => LgqvCoW491LX2OqL789CtzOK3xR9kqqdppOdeQV2UHM=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => fcf87225cf43e06506298ad6b56210d0
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-length] => 36
+                                    [content-type] => text/html; charset=utf-8
+                                    [date] => Fri, 09 Aug 2024 00:49:23 GMT
+                                    [etag] => W/"24-6I67jkmTc22Idx9jGrau4jKxEG8"
+                                    [vary] => Origin
+                                    [x-powered-by] => Express
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T00:49:26+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 87df988c2728ea7ef0ea1659b9007f7f
+            [Date] => 9 de agosto de 2024 @ 00:49
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 1.53596
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => LgqvCoW491LX2OqL789CtzOK3xR9kqqdppOdeQV2UHM=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 87df988c2728ea7ef0ea1659b9007f7f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-length] => 36
+                                    [content-type] => text/html; charset=utf-8
+                                    [date] => Fri, 09 Aug 2024 00:49:25 GMT
+                                    [etag] => W/"24-SjSEp8dWSJLjtzIXND+rZ8HYQ3M"
+                                    [vary] => Origin
+                                    [x-powered-by] => Express
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T00:52:25+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 5266f338708208c1c8878665aeeed8ea
+            [Date] => 9 de agosto de 2024 @ 00:52
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 4.32495
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => IUugiy1r6RVGAdpTn6adwgXM1IL/iyJwWl0OoDREICs=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 5266f338708208c1c8878665aeeed8ea
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-length] => 36
+                                    [content-type] => text/html; charset=utf-8
+                                    [date] => Fri, 09 Aug 2024 00:52:24 GMT
+                                    [etag] => W/"24-bVPoa4MHqw1SpbwE02ywuvPyBN8"
+                                    [vary] => Origin
+                                    [x-powered-by] => Express
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T01:05:58+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 6b34ad03620632d8bc5188a187f1cb08
+            [Date] => 9 de agosto de 2024 @ 01:05
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.36504
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => cH/57U2igFnlxwy53/NYBWhymXXROwsz0GpC5Z4zFGo=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 6b34ad03620632d8bc5188a187f1cb08
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Fri, 09 Aug 2024 01:05:58 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+2024-08-09T02:12:54+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 353a51734f7e2b924171543b726be3e5
+            [Date] => 9 de agosto de 2024 @ 02:12
+            [URL] => https://a913-2804-248-fbe6-fb00-d566-b5d2-54b8-70f2.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.42639
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.1.4 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 35tSJZrrdctKC4Ew4dbfvCx6Mt95HPSFtg+mXuTiA1M=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 353a51734f7e2b924171543b726be3e5
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Fri, 09 Aug 2024 02:12:54 GMT
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)

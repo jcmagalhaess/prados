@@ -1,0 +1,7 @@
+2024-08-31T13:00:37+00:00 NOTICE REQUEST BEGINS CONTEXT: {"_legacy":true}
+2024-08-31T13:00:37+00:00 NOTICE REQUEST URL: https://api.pagseguro.com/orders CONTEXT: {"_legacy":true}
+2024-08-31T13:00:37+00:00 NOTICE REQUEST BODY: {"reference_id":"{\"id\":1383,\"password\":\"9M!FdBEoBGl&J%sws07mzdguPR1TFw\"}","items":[{"name":"Ticket","unit_amount":33000,"quantity":3}],"customer":{"name":"Júlio Magalhães","email":"jcmagalhaes301@gmail.com","tax_id":"60405470304"},"shipping":{"address":{"street":"Rua XXV","number":"604","locality":"Quintino Cunha","city":"Fortaleza","region_code":"CE","country":"BRA","postal_code":"60353070"}},"qr_codes":[{"amount":{"value":99000},"expiration_date":"2024-08-31T13:15:37+00:00"}],"notification_urls":["https://localhost/projeto/wess.blog/wc-api/pagbank_woocommerce_handler/"],"metadata":{"order_id":1383,"signature":"TxxzJtsZjwpWovvjn8/2c1pgxp+g/EU1Ej0FoyADjn5a2nhZXOxCSpFof7ytUADm+z9hG/cUTTmkfWbQ5SrjDw==","password":"9M!FdBEoBGl&J%sws07mzdguPR1TFw"}} CONTEXT: {"_legacy":true}
+2024-08-31T13:00:38+00:00 NOTICE RESPONSE CODE: 400 CONTEXT: {"_legacy":true}
+2024-08-31T13:00:38+00:00 NOTICE RESPONSE BODY: {"error_messages":[{"code":"40002","description":"invalid notification url","parameter_name":"notification_urls[0]"}]} CONTEXT: {"_legacy":true}
+2024-08-31T13:00:38+00:00 NOTICE REQUEST ENDS
+ CONTEXT: {"_legacy":true}

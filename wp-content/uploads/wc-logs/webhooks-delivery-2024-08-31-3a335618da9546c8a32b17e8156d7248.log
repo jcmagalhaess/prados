@@ -1,0 +1,225 @@
+2024-08-31T13:00:38+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e2b5510f20f0c67b2fafb0031047bce1
+            [Date] => 31 de agosto de 2024 @ 13:00
+            [URL] => https://4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.98316
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.2.3 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => mpDMI3DMNFa2JDG6ruCdNG6OgBuNXq9ytJtCohoJN/A=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => e2b5510f20f0c67b2fafb0031047bce1
+                        )
+
+                )
+
+            [Body] => {\"id\":1383,\"parent_id\":0,\"status\":\"pending\",\"currency\":\"BRL\",\"version\":\"9.2.3\",\"prices_include_tax\":false,\"date_created\":\"2024-08-31T13:00:17\",\"date_modified\":\"2024-08-31T13:00:37\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_RGciTkMpSZzjV\",\"billing\":{\"first_name\":\"J\\u00falio\",\"last_name\":\"Magalh\\u00e3es\",\"company\":\"\",\"address_1\":\"Rua XXV\",\"address_2\":\"\",\"city\":\"Fortaleza\",\"state\":\"CE\",\"postcode\":\"60353-070\",\"country\":\"BR\",\"email\":\"jcmagalhaes301@gmail.com\",\"phone\":\"(85) 98192-1834\",\"number\":\"604\",\"neighborhood\":\"Quintino Cunha\",\"persontype\":\"F\",\"cpf\":\"60405470304\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"pagbank_pix\",\"payment_method_title\":\"Pix\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"a4d696405bee22b4316165e1ae6bfe62\",\"number\":\"1383\",\"meta_data\":[{\"id\":770,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":769,\"key\":\"_billing_cpf\",\"value\":\"604.054.703-04\"},{\"id\":772,\"key\":\"_billing_neighborhood\",\"value\":\"Quintino Cunha\"},{\"id\":771,\"key\":\"_billing_number\",\"value\":\"604\"},{\"id\":768,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":777,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":776,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1382\":[{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"}]}},{\"id\":785,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":795,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":783,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":793,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":780,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":790,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":782,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":792,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":781,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":791,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":778,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":788,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":784,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":794,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":779,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":789,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":786,\"key\":\"_wc_points_logged_redemption\",\"value\":{\"points\":0,\"amount\":0,\"discount_code\":null}},{\"id\":787,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":63,\"name\":\"Ticket\",\"product_id\":1382,\"variation_id\":0,\"quantity\":3,\"tax_class\":\"\",\"subtotal\":\"990.00\",\"subtotal_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":614,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"}],\"sku\":\"PRADOS-32165\",\"price\":330,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/finalizar-compra\\/order-pay\\/1383\\/?pay_for_order=true&key=wc_order_RGciTkMpSZzjV\",\"is_editable\":true,\"needs_payment\":true,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-31T13:00:17\",\"date_modified_gmt\":\"2024-08-31T13:00:37\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1383\"}],\"collection\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Sat, 31 Aug 2024 13:01:52 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel 4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCA0MDY2LTI4MDQtMjQ4LWZiMzktZTMwMC00ZGUyLWZjZDEtNTE1Ni1iYzY2Lm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2024-08-31T13:00:39+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 73308c701f388dcc850a52006a277c9b
+            [Date] => 31 de agosto de 2024 @ 13:00
+            [URL] => https://4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.33903
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.2.3 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => mpDMI3DMNFa2JDG6ruCdNG6OgBuNXq9ytJtCohoJN/A=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 73308c701f388dcc850a52006a277c9b
+                        )
+
+                )
+
+            [Body] => {\"id\":1383,\"parent_id\":0,\"status\":\"pending\",\"currency\":\"BRL\",\"version\":\"9.2.3\",\"prices_include_tax\":false,\"date_created\":\"2024-08-31T13:00:17\",\"date_modified\":\"2024-08-31T13:00:37\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_RGciTkMpSZzjV\",\"billing\":{\"first_name\":\"J\\u00falio\",\"last_name\":\"Magalh\\u00e3es\",\"company\":\"\",\"address_1\":\"Rua XXV\",\"address_2\":\"\",\"city\":\"Fortaleza\",\"state\":\"CE\",\"postcode\":\"60353-070\",\"country\":\"BR\",\"email\":\"jcmagalhaes301@gmail.com\",\"phone\":\"(85) 98192-1834\",\"number\":\"604\",\"neighborhood\":\"Quintino Cunha\",\"persontype\":\"F\",\"cpf\":\"60405470304\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"pagbank_pix\",\"payment_method_title\":\"Pix\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"a4d696405bee22b4316165e1ae6bfe62\",\"number\":\"1383\",\"meta_data\":[{\"id\":770,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":769,\"key\":\"_billing_cpf\",\"value\":\"604.054.703-04\"},{\"id\":772,\"key\":\"_billing_neighborhood\",\"value\":\"Quintino Cunha\"},{\"id\":771,\"key\":\"_billing_number\",\"value\":\"604\"},{\"id\":768,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":777,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":776,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1382\":[{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"}]}},{\"id\":785,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":795,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":783,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":793,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":780,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":790,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":782,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":792,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":781,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":791,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":778,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":788,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":784,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":794,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":779,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":789,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":786,\"key\":\"_wc_points_logged_redemption\",\"value\":{\"points\":0,\"amount\":0,\"discount_code\":null}},{\"id\":787,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":63,\"name\":\"Ticket\",\"product_id\":1382,\"variation_id\":0,\"quantity\":3,\"tax_class\":\"\",\"subtotal\":\"990.00\",\"subtotal_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":614,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"}],\"sku\":\"PRADOS-32165\",\"price\":330,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/finalizar-compra\\/order-pay\\/1383\\/?pay_for_order=true&key=wc_order_RGciTkMpSZzjV\",\"is_editable\":true,\"needs_payment\":true,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-31T13:00:17\",\"date_modified_gmt\":\"2024-08-31T13:00:37\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1383\"}],\"collection\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Sat, 31 Aug 2024 13:01:52 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel 4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCA0MDY2LTI4MDQtMjQ4LWZiMzktZTMwMC00ZGUyLWZjZDEtNTE1Ni1iYzY2Lm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)
+
+2024-08-31T13:01:22+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 6db7aa55a8d085917c8a8d6dd4d7ea95
+            [Date] => 31 de agosto de 2024 @ 13:01
+            [URL] => https://4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app/financeiro/createByHook
+            [Duration] => 0.74084
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.2.3 Hookshot (WordPress/6.6.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://localhost/projeto/wess.blog/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => sNQyAt32NtB1NhgVwyxmq5ZQgSdPTS1zha/eOjgBmEs=
+                            [X-WC-Webhook-ID] => 2
+                            [X-WC-Webhook-Delivery-ID] => 6db7aa55a8d085917c8a8d6dd4d7ea95
+                        )
+
+                )
+
+            [Body] => {\"id\":1383,\"parent_id\":0,\"status\":\"pending\",\"currency\":\"BRL\",\"version\":\"9.2.3\",\"prices_include_tax\":false,\"date_created\":\"2024-08-31T13:00:17\",\"date_modified\":\"2024-08-31T13:00:44\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_RGciTkMpSZzjV\",\"billing\":{\"first_name\":\"J\\u00falio\",\"last_name\":\"Magalh\\u00e3es\",\"company\":\"\",\"address_1\":\"Rua XXV\",\"address_2\":\"\",\"city\":\"Fortaleza\",\"state\":\"CE\",\"postcode\":\"60353-070\",\"country\":\"BR\",\"email\":\"jcmagalhaes301@gmail.com\",\"phone\":\"(85) 98192-1834\",\"number\":\"604\",\"neighborhood\":\"Quintino Cunha\",\"persontype\":\"F\",\"cpf\":\"60405470304\",\"rg\":\"\",\"cnpj\":\"\",\"ie\":\"\",\"birthdate\":\"\",\"gender\":\"\",\"cellphone\":\"\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\",\"number\":\"\",\"neighborhood\":\"\"},\"payment_method\":\"pagbank_boleto\",\"payment_method_title\":\"Boleto\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"a4d696405bee22b4316165e1ae6bfe62\",\"number\":\"1383\",\"meta_data\":[{\"id\":770,\"key\":\"_billing_cnpj\",\"value\":\"\"},{\"id\":769,\"key\":\"_billing_cpf\",\"value\":\"604.054.703-04\"},{\"id\":772,\"key\":\"_billing_neighborhood\",\"value\":\"Quintino Cunha\"},{\"id\":771,\"key\":\"_billing_number\",\"value\":\"604\"},{\"id\":768,\"key\":\"_billing_persontype\",\"value\":\"1\"},{\"id\":777,\"key\":\"_tribe_has_tickets\",\"value\":\"1\"},{\"id\":776,\"key\":\"_tribe_tickets_meta\",\"value\":{\"1382\":[{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"},{\"tribe-tickets-plus-iac-name\":\"J\\u00falio Magalh\\u00e3es\",\"tribe-tickets-plus-iac-email\":\"jcmagalhaes301@gmail.com\",\"telefone\":\"85981921834\",\"data-de-nascimento\":\"1997-07-04\",\"rg\":\"2009099146767\",\"genero\":\"Masculino\",\"cpf\":\"60405470304\"}]}},{\"id\":785,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":795,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":804,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":783,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":793,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":802,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"9\"},{\"id\":780,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":790,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":799,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/localhost\\/pradosdb04\\/\"},{\"id\":782,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":792,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":801,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"27\"},{\"id\":781,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":791,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":800,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-08-25 18:06:41\"},{\"id\":778,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":788,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":797,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":784,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":794,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":803,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.0.0 Safari\\/537.36 OPR\\/109.0.0.0\"},{\"id\":779,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":789,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":798,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":786,\"key\":\"_wc_points_logged_redemption\",\"value\":{\"points\":0,\"amount\":0,\"discount_code\":null}},{\"id\":796,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":64,\"name\":\"Ticket\",\"product_id\":1382,\"variation_id\":0,\"quantity\":3,\"tax_class\":\"\",\"subtotal\":\"990.00\",\"subtotal_tax\":\"0.00\",\"total\":\"990.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":624,\"key\":\"_tribe_wooticket_attendee_optout\",\"value\":\"yes\",\"display_key\":\"_tribe_wooticket_attendee_optout\",\"display_value\":\"yes\"}],\"sku\":\"PRADOS-32165\",\"price\":330,\"image\":{\"id\":\"\",\"src\":\"\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/finalizar-compra\\/order-pay\\/1383\\/?pay_for_order=true&key=wc_order_RGciTkMpSZzjV\",\"is_editable\":true,\"needs_payment\":true,\"needs_processing\":true,\"date_created_gmt\":\"2024-08-31T13:00:17\",\"date_modified_gmt\":\"2024-08-31T13:00:44\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"R$\",\"_links\":{\"self\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\\/1383\"}],\"collection\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"https:\\/\\/localhost\\/projeto\\/wess.blog\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html
+                                    [ngrok-error-code] => ERR_NGROK_3200
+                                    [referrer-policy] => no-referrer
+                                    [date] => Sat, 31 Aug 2024 13:02:35 GMT
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <meta charset="utf-8">
+    <meta name="author" content="ngrok">
+    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">
+    <noscript>Tunnel 4066-2804-248-fb39-e300-4de2-fcd1-5156-bc66.ngrok-free.app not found (ERR_NGROK_3200)</noscript>
+    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full" id="ngrok">
+    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiIzMjAwIiwibWVzc2FnZSI6IlR1bm5lbCA0MDY2LTI4MDQtMjQ4LWZiMzktZTMwMC00ZGUyLWZjZDEtNTE1Ni1iYzY2Lm5ncm9rLWZyZWUuYXBwIG5vdCBmb3VuZCIsInRpdGxlIjoiTm90IEZvdW5kIn0="></div>
+  </body>
+</html>
+
+                )
+
+        )
+
+)
+
