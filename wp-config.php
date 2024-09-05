@@ -64,7 +64,7 @@ define( 'WP_CACHE_KEY_SALT', 'HIHoV6VJN0.q/&33NSz8XFX139(q!8Eqgx?Rq$kE_et!DeVvQK
 
 /**#@-*/
 /** JWt Authentication for WP REST API*/
-define('JWT_AUTH_SECRET_KEY', '_@pdaUy/u6|eig<AO,XCbjqxw<;13D=aNMB*OeG/[HSf~v`w_[{Tn6q2yVF~Ez9(');
+define('JWT_AUTH_SECRET_KEY', '738dvAMtvCwearw88QhfxpYHXo4GV9Wxjy3HVcTebIE=');
 define('JWT_AUTH_CORS_ENABLE', true);
 
 

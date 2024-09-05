@@ -1,8 +1,10 @@
 <?php
+require_once('./wp-load.php');
+
 // Configurações da API WooCommerce
-$consumerKey = 'ck_5c7bfac0e3f437e65b5df890be3f66a91af294eb';
-$consumerSecret = 'cs_d4cf6eeaef7164705da62c03688706e5c841d160';
-$baseUrl = 'https://localhost/projeto/wess.blog/wp-json/wc/v3/';
+$consumerKey = 'ck_20a66bd7975de445b0c70fddb5e559cc3d53ff02';
+$consumerSecret = 'cs_edff2e3054ca005379933642b94b6c499afe2327';
+$baseUrl = 'https://5211-189-106-167-112.ngrok-free.app/wp-json/wp/v1/';
 
 // Função para buscar dados da API
 function fetch_data_from_api($endpoint, $consumerKey, $consumerSecret, $baseUrl) {
@@ -36,17 +38,18 @@ function handle_new_order($order_id) {
     global $consumerKey, $consumerSecret, $baseUrl;
 
     // Obter dados do pedido específico ou qualquer endpoint desejado
-    $endpoint = 'orders/' . $order_id; // Por exemplo, para obter detalhes do pedido específico
+    $endpoint = 'pedido/' . $order_id; // Por exemplo, para obter detalhes do pedido específico
     $data = to_array($endpoint, $consumerKey, $consumerSecret, $baseUrl);
 
     // Processar e enviar os dados como desejar
     // Exemplo: Enviar os dados para um endpoint externo
-    $destination_url = 'https://example.com/receive-data'; // Substitua pelo URL de destino
+    $destination_url = 'https://5211-189-106-167-112.ngrok-free.app/financeiro/createByHook'; // Substitua pelo URL de destino
     $response = wp_remote_post($destination_url, array(
         'method'    => 'POST',
         'body'      => json_encode($data),
         'headers'   => array(
             'Content-Type' => 'application/json',
+            'Authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3MuYmxvZyIsImlhdCI6MTcyMzI1MzUwOSwibmJmIjoxNzIzMjUzNTA5LCJleHAiOjE3MjM4NTgzMDksImRhdGEiOnsidXNlciI6eyJpZCI6IjIifX19.fC_H6mMyDCrhjMOiUrdYCBoEBr3edCG-wyix_Yx_9f8',
         ),
     ));
 

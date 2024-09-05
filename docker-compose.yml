@@ -9,12 +9,18 @@ services:
     volumes:
       - ./:/var/www/html
       - ./php.ini:/usr/local/etc/php/php.ini
+      - ./uploads:/var/www/html/wp-content/uploads
     environment:
       PHP_UPLOAD_MAX_FILESIZE: 10M
       PHP_POST_MAX_SIZE: 10M
     depends_on:
       - db
-      
+    command: >
+      /bin/bash -c "
+        chown -R www-data:www-data /var/www/html/wp-content &&
+        chown 755 /var/www/html/.htaccess &&
+        apache2-foreground"
+
   db:
     image: mysql:5.7
     container_name: prados-mysql
@@ -24,6 +30,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: prados-phpmyadmin
@@ -37,3 +44,4 @@ services:
 
 volumes:
   db_data:
+  uploads:

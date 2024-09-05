@@ -2,13 +2,13 @@
 
 // URL da API REST para criar um ticket
 // URL da API REST para criar um ticket
-$create_ticket_url = 'https://localhost/projeto/wess.blog/wp-json/tribe/tickets/v1/tickets';
+$create_ticket_url = 'https://still-sloth-logical.ngrok-free.app/wp-json/tribe/tickets/v1/tickets';
 
 // Token JWT obtido anteriormente
 $jwt_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3MuYmxvZyIsImlhdCI6MTcyMzY2MTc3OSwibmJmIjoxNzIzNjYxNzc5LCJleHAiOjE3MjQyNjY1NzksImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.NWe0GydRVKYwSEHzpphSWV0pYGv476ClEVv0FhA7j5Y'; // Substitua pelo token obtido
 
 // Obter um nonce válido
-$nonce_url = 'https://localhost/projeto/wess.blog/wp-json/wp/v2/token';
+$nonce_url = 'https://still-sloth-logical.ngrok-free.app/wp-json/wp/v2/token';
 $nonce_response = json_decode(curl_request($nonce_url, array()), true);
 $nonce = $nonce_response['nonce'];
 
