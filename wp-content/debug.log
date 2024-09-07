@@ -11292,3 +11292,8 @@
 [07-Sep-2024 22:40:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$pluginDir is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 334
 [07-Sep-2024 22:40:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$plugin_dir is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 334
 [07-Sep-2024 22:40:46 UTC] event-tickets/common -  Log: Inicializando Tribe Events em Sep, 7th at 10:09:46 pm
+[07-Sep-2024 22:42:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$pluginSlug is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 332
+[07-Sep-2024 22:42:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$plugin_slug is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 332
+[07-Sep-2024 22:42:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$pluginDir is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 334
+[07-Sep-2024 22:42:46 UTC] PHP Deprecated:  Creation of dynamic property Tribe__Tickets_Plus__Commerce__WooCommerce__Main::$plugin_dir is deprecated in /var/www/html/wp-content/plugins/event-tickets-plus/src/Tribe/Commerce/WooCommerce/Main.php on line 334
+[07-Sep-2024 22:42:46 UTC] event-tickets/common -  Log: Inicializando Tribe Events em Sep, 7th at 10:09:46 pm
