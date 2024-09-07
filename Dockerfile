@@ -10,9 +10,6 @@ RUN a2enmod rewrite
 # Defina o diretório de trabalho no Apache
 WORKDIR /var/www/html
 
-# Copie os arquivos do seu projeto para o container
-COPY . /var/www/html/
-
 # Configurando php.ini
 COPY ./php.ini /var/www/html/php.ini
 

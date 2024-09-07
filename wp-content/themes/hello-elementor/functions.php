@@ -269,39 +269,3 @@ function my_nonce_action_function() {
     echo wp_create_nonce('my_nonce_action');
     wp_die(); // termina a execução
 }
-add_filter('http_api_before_request', 'add_auth_token_to_webhook', 10, 3);
-
-function add_auth_token_to_webhook($preempt, $r, $url) {
-	error_log('add_auth_token_to_webhook foi executada.');
-    // Verifica se a URL corresponde ao seu webhook
-    if (strpos($url, 'https://8d05-189-106-167-112.ngrok-free.app') !== false) {
-        error_log('URL do webhook detectada.');
-        // Autentica e obtém o token
-        $response = wp_remote_post('https://localhost:8080/jwt-auth/v1/token', [
-            'body' => [
-                'username' => 'julio.magalhaes',
-                'password' => 'prados*804*',
-            ],
-        ]);
-
-        if (is_wp_error($response)) {
-            // Lida com erro na autenticação
-            return $response;
-        }
-
-        $body = wp_remote_retrieve_body($response);
-        $data = json_decode($body, true);
-        $token = isset($data['token']) ? $data['token'] : '';
-        error_log('Token obtido: ' . $token);
-
-        // Adiciona o token ao header Authorization
-        $r['headers']['Authorization'] = "Bearer {$token}";
-        error_log('Token adicionado ao header.');
-    }
-
-    // Retorna $preempt para não modificar outras requisições
-    return $preempt;
-}
-
-
-

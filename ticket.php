@@ -2,13 +2,13 @@
 
 
 // URL da API REST para atualizar o evento
-$update_event_url = 'https://4291-189-106-167-112.ngrok-free.app/wp-json/tribe/events/v1/events/1294';
+$update_event_url = 'https://4bfc-189-106-167-112.ngrok-free.app/wp-json/tribe/events/v1/events/1294';
 
 // Token JWT obtido anteriormente
 $jwt_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3MuYmxvZyIsImlhdCI6MTcyMzY2MTc3OSwibmJmIjoxNzIzNjYxNzc5LCJleHAiOjE3MjQyNjY1NzksImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.NWe0GydRVKYwSEHzpphSWV0pYGv476ClEVv0FhA7j5Y'; // Substitua pelo token obtido
 
 // Obter um nonce válido
-$nonce_url = 'https://4291-189-106-167-112.ngrok-free.app/wp-json/wp/v2';
+$nonce_url = 'https://4bfc-189-106-167-112.ngrok-free.app/wp-json/wp/v2';
 $nonce_response = json_decode(curl_request($nonce_url, array()), true);
 $nonce = $nonce_response['nonce'];
 
@@ -63,7 +63,7 @@ function curl_request($url, $data = array()) {
     return $response;
 }
 // Obter um nonce válido
-$nonce_url = 'https://4291-189-106-167-112.ngrok-free.app/wp-json/wp/v2';
+$nonce_url = 'https://4bfc-189-106-167-112.ngrok-free.app/wp-json/wp/v2';
 $nonce_response = json_decode(curl_request($nonce_url, array()), true);
 $nonce = $nonce_response['nonce'];
 

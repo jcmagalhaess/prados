@@ -4,7 +4,7 @@ require_once('./wp-load.php');
 // Configurações da API WooCommerce
 $consumerKey = 'ck_20a66bd7975de445b0c70fddb5e559cc3d53ff02';
 $consumerSecret = 'cs_edff2e3054ca005379933642b94b6c499afe2327';
-$baseUrl = 'https://5211-189-106-167-112.ngrok-free.app/wp-json/wp/v1/';
+$baseUrl = 'https://4bfc-189-106-167-112.ngrok-free.app/wp-json/wp/v1/';
 
 // Função para buscar dados da API
 function fetch_data_from_api($endpoint, $consumerKey, $consumerSecret, $baseUrl) {
@@ -43,13 +43,13 @@ function handle_new_order($order_id) {
 
     // Processar e enviar os dados como desejar
     // Exemplo: Enviar os dados para um endpoint externo
-    $destination_url = 'https://5211-189-106-167-112.ngrok-free.app/financeiro/createByHook'; // Substitua pelo URL de destino
+    $destination_url = 'https://4bfc-189-106-167-112.ngrok-free.app/financeiro/createByHook'; // Substitua pelo URL de destino
     $response = wp_remote_post($destination_url, array(
         'method'    => 'POST',
         'body'      => json_encode($data),
         'headers'   => array(
             'Content-Type' => 'application/json',
-            'Authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3MuYmxvZyIsImlhdCI6MTcyMzI1MzUwOSwibmJmIjoxNzIzMjUzNTA5LCJleHAiOjE3MjM4NTgzMDksImRhdGEiOnsidXNlciI6eyJpZCI6IjIifX19.fC_H6mMyDCrhjMOiUrdYCBoEBr3edCG-wyix_Yx_9f8',
+            'Authorization' => 'Bearer ' . $data['token'],
         ),
     ));
 
@@ -60,3 +60,6 @@ function handle_new_order($order_id) {
     }
 }
 ?>
+curl -X POST http://localhost:8080/wp-json/jwt-auth/v1/token \
+-H "Content-Type: application/json" \
+-d '{"username": "julio.magalhaes", "password": "prados*804*"}'

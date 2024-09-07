@@ -1,6 +1,6 @@
 <?php
 // URL da API REST do The Events Calendar
-$event_url = 'https://still-sloth-logical.ngrok-free.app/wp-json/tribe/events/v1/events';
+$event_url = 'https://4bfc-189-106-167-112.ngrok-free.app/wp-json/tribe/events/v1/events';
 
 // Token JWT obtido anteriormente
 $jwt_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlc3MuYmxvZyIsImlhdCI6MTcyMzY2MTc3OSwibmJmIjoxNzIzNjYxNzc5LCJleHAiOjE3MjQyNjY1NzksImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.NWe0GydRVKYwSEHzpphSWV0pYGv476ClEVv0FhA7j5Y'; // Substitua pelo token obtido
